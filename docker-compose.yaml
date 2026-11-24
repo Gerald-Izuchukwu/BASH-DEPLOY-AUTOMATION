@@ -1,9 +1,7 @@
-version: "3.8"
-
 services:
   hng13-app:
     build: .
-    container_name: hng13-container
+    container_name: bash-deploy-automation-app
     ports:
       - "9600:9600"
     restart: unless-stopped
